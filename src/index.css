@@ -1,3 +1,7 @@
+body {
+  width: 100%;
+}
+
 :root {
   --primary-color: #333;
   --secondary-color: #444;
@@ -197,3 +201,47 @@ a:hover {
 }
 
 /*------Navbar---------Finishes--- */
+
+/*------UpperContainer---------Starts--- */
+.section-b {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.2);
+  background: url('../src/img/beachDrone.jpg') no-repeat bottom center/cover;
+
+  height: 800px;
+}
+
+.section-b-inner {
+  color: #ffffff;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  max-width: 860px;
+  padding: 5rem 0;
+}
+
+.section-b-inner h3 {
+  font-size: 2rem;
+}
+
+.section-b-inner h2 {
+  font-size: 5rem;
+  margin-top: 5rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 10px;
+}
+
+.section-b-inner p {
+  font-size: 1.7rem;
+  margin-top: 10rem !important;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.section-b-inner h1 {
+  font-size: 6rem;
+  margin-top: 1rem;
+}
