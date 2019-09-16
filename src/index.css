@@ -80,8 +80,9 @@ a:hover {
 #menuToggle {
   display: block;
   position: relative;
-  top: 50px;
-  left: 50px;
+  margin-left: 10px;
+  top: 10px;
+  left: 0px;
 
   z-index: 1;
 
@@ -207,7 +208,7 @@ a:hover {
   position: relative;
   background-color: rgba(0, 0, 0, 0.2);
   background: url('../src/img/beachDrone.jpg') no-repeat bottom center/cover;
-
+  margin-left: -10px;
   height: 800px;
 }
 
@@ -233,12 +234,24 @@ a:hover {
   margin-top: 5rem;
   background-color: rgba(0, 0, 0, 0.4);
   padding: 10px;
+  font-family: Roboto;
+}
+
+@media (max-width: 700px) {
+  .section-b-inner h2 {
+    font-size: 3rem;
+  }
+  .section-b-inner p {
+    font-size: 1.3rem !important;
+  }
 }
 
 .section-b-inner p {
   font-size: 1.7rem;
-  margin-top: 10rem !important;
+  margin-top: 6rem !important;
+  padding: 20px;
   background-color: rgba(0, 0, 0, 0.4);
+  font-family: Roboto;
 }
 
 .section-b-inner h1 {
