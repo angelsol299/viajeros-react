@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/viajeros-react/static/css/main.87883ecb.chunk.css",
+    "main.js": "/viajeros-react/static/js/main.f261546f.chunk.js",
+    "main.js.map": "/viajeros-react/static/js/main.f261546f.chunk.js.map",
+    "runtime~main.js": "/viajeros-react/static/js/runtime~main.c68d063f.js",
+    "runtime~main.js.map": "/viajeros-react/static/js/runtime~main.c68d063f.js.map",
+    "static/js/2.4119eb65.chunk.js": "/viajeros-react/static/js/2.4119eb65.chunk.js",
+    "static/js/2.4119eb65.chunk.js.map": "/viajeros-react/static/js/2.4119eb65.chunk.js.map",
+    "index.html": "/viajeros-react/index.html",
+    "precache-manifest.78737eb214ecb2e50334890795292515.js": "/viajeros-react/precache-manifest.78737eb214ecb2e50334890795292515.js",
+    "service-worker.js": "/viajeros-react/service-worker.js",
+    "static/css/main.87883ecb.chunk.css.map": "/viajeros-react/static/css/main.87883ecb.chunk.css.map",
+    "static/media/index.css": "/viajeros-react/static/media/beachDrone.b4634e18.jpg",
+    "static/media/filipinas.jpg": "/viajeros-react/static/media/filipinas.cb58ccef.jpg",
+    "static/media/hongkong.jpg": "/viajeros-react/static/media/hongkong.647aff05.jpg",
+    "static/media/selling.jpg": "/viajeros-react/static/media/selling.7a1791a7.jpg"
+  }
+}
