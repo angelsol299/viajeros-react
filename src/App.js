@@ -23,7 +23,9 @@ const App = props => {
       <div className={classes.h2Title}>
         <h2>Guías de viajes</h2>
       </div>
-      <Cards />
+      <div style={{ textAlign: 'center' }}>
+        <Cards />
+      </div>
     </div>
   );
 };
