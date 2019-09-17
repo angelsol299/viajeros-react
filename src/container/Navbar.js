@@ -47,6 +47,9 @@ const Navbar = () => {
             <li>
               <a href="#about">Destinos</a>
             </li>
+             <li>
+              <a href="#about">Guías de viaje</a>
+            </li>
           </ul>
         </div>
       </nav>
