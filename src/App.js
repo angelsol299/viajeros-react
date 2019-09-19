@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Navbar from './container/Navbar';
+import Footer from './container/Footer';
 import UpperContainer from './container/UpperContainer';
 import Cards from './container/Cards';
 
@@ -26,6 +27,7 @@ const App = props => {
       <div style={{ textAlign: 'center' }}>
         <Cards />
       </div>
+      <Footer />
     </div>
   );
 };
