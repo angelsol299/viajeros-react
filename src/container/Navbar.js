@@ -29,15 +29,15 @@ const Navbar = () => {
           </ul>
         </div>
       </nav>
-      <nav class="navbar">
-        <div class="container">
+      <nav className="navbar">
+        <div className="container">
           <h1
-            class="logo"
-            style={{ marginLeft: '-200px', fontFamily: 'Roboto' }}
+            className="mainTitle"
+            style={{ marginLeft: '-200px', fontFamily: 'Roboto', color:'mainTitle' }}
           >
             ViajerosX
           </h1>
-          <ul class="nav">
+          <ul className="nav">
             <li>
               <a href="#home">Articulos</a>
             </li>
