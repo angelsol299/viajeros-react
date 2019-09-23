@@ -6,10 +6,9 @@ const Navbar = () => {
       <nav role="navigation" className="navigation">
         <div id="menuToggle">
           <input type="checkbox" />
-          <span></span>
-          <span></span>
-          <span></span>
-
+          <span style={{ background: '#046156' }}></span>
+          <span style={{ background: '#046156' }}></span>
+          <span style={{ background: '#046156' }}></span>
           <ul id="menu">
             <a href="#">
               <li>Home</li>
@@ -33,7 +32,12 @@ const Navbar = () => {
         <div className="container">
           <h1
             className="mainTitle"
-            style={{ marginLeft: '-200px', fontFamily: 'Roboto', color:'mainTitle' }}
+            style={{
+              marginLeft: '-200px',
+              fontFamily: 'Roboto',
+
+              color: '#0089a8'
+            }}
           >
             ViajerosX
           </h1>
@@ -47,7 +51,7 @@ const Navbar = () => {
             <li>
               <a href="#about">Destinos</a>
             </li>
-             <li>
+            <li>
               <a href="#about">Guías de viaje</a>
             </li>
           </ul>

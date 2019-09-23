@@ -12,7 +12,7 @@ const styles = theme => ({
   h2Title: {
     fontFamily: 'Roboto',
     fontSize: '20px',
-    color: '#29b5ba;',
+    color: '#0089a8',
     margin: '60px 0'
   }
 });
@@ -35,6 +35,9 @@ const App = props => {
       </div>
       <div>
         <Articles />
+      </div>
+      <div className={classes.h2Title}>
+        <h2>Videos</h2>
       </div>
       <br />
       <br />

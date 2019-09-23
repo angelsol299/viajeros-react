@@ -1,12 +1,8 @@
 body {
   width: 100%;
+  margin: 0px !important;
 }
 
-:root {
-  --primary-color: #333;
-  --secondary-color: #444;
-  --overlay-color: rgba(0, 0, 0, 0.2);
-}
 
 /*------Navbar---------Starts--- */
 
@@ -445,4 +441,27 @@ a:hover {
 .section-c .gallery a {
   width: 100%;
   height: 100%;
+}
+
+.section-c .gallery a:hover img {
+  opacity: 0.85 !important;
+}
+
+.textBefore::before {
+  content: 'Bali';
+  color: black;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  max-width: 860px;
+  padding: 5rem 0;
+  position: absolute;
+}
+
+.textBefore {
+  font-size: 30px;
 }
