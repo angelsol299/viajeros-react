@@ -15,50 +15,70 @@ const styles = theme => ({
       background: 'black'
     }
   },
-  lowerCards:{
-              fontFamily: 'Roboto',
-              marginTop: '135px',
-              marginLeft: '140px',
-              fontSize: '30px',
-              color: 'white',
-              //transform: 'translate(450%, 520%)',
-              position: 'absolute',
-              [theme.breakpoints.down('xs')]:{
-               fontSize: '40px',
-                  marginTop: '95px',
-                   marginLeft: '100px',
-              }
+  img1: {
+    display: 'grid',
+    alignItems: 'center',
+    alignContent: 'center',
+    width: 'auto',
+    height: '700px',
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover',
+    background: `url(${Bali}) no-repeat`
   },
-  biggerSquare:{
-              fontFamily: 'Roboto',
-              marginTop: '135px',
-              marginLeft: '340px',
-              fontSize: '70px',
-              color: 'white',
-              //transform: 'translate(450%, 520%)',
-              position: 'absolute',
-              [theme.breakpoints.down('xs')]:{
-                fontSize: '40px',
-                  marginTop: '95px',
-                   marginLeft: '150px',
-
-              }
+  img2: {
+    alignItems: 'center',
+    display: 'grid',
+    width: '100%',
+    alignContent: 'center',
+    height: '100%',
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover',
+    background: `url(${Shanghai}) no-repeat`
   },
-  secondBiggerSquare:{
-
-              fontFamily: 'Roboto',
-              marginTop: '135px',
-              marginLeft: '140px',
-              fontSize: '30px',
-              color: 'white',
-              //transform: 'translate(450%, 520%)',
-              position: 'absolute',
-              [theme.breakpoints.down('xs')]:{
-                 fontSize: '40px',
-                  marginTop: '95px',
-                   marginLeft: '100px',
-              }
-
+  img3: {
+    display: 'grid',
+    alignItems: 'center',
+    alignContent: 'center',
+    width: 'auto',
+    height: '100%',
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover',
+    background: `url(${NewYork}) no-repeat`
+  },
+  img4: {
+    display: 'grid',
+    alignItems: 'center',
+    alignContent: 'center',
+    width: 'auto',
+    height: '100%',
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover',
+    background: `url(${LosAngeles}) no-repeat`
+  },
+  img5: {
+    display: 'grid',
+    alignItems: 'center',
+    alignContent: 'center',
+    width: 'auto',
+    height: '100%',
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover',
+    background: `url(${London}) no-repeat`
+  },
+  img6: {
+    display: 'grid',
+    alignItems: 'center',
+    alignContent: 'center',
+    width: 'auto',
+    height: '100%',
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover',
+    background: `url(${Cancun}) no-repeat`
+  },
+  img3Text: {
+    fontSize: '40px',
+    fontFamily: 'Roboto',
+    color: 'white'
   }
 });
 
@@ -67,52 +87,50 @@ const Articles = props => {
   return (
     <section className="section-c">
       <div className="gallery">
-        <a href="img/workin-station.jpg" id="hover">
-          <p className={classes.biggerSquare}>
-            Bali
-          </p>
-          <img src={Bali} alt="" />
+        <a
+          href="img/workin-station.jpg"
+          id="hover"
+          style={{ display: 'block' }}
+        >
+          <div className={classes.img1}>
+            <p className={classes.img3Text}>Bali</p>
+          </div>
         </a>
 
-        <a href="img/imac.jpg" id="hover" className={classes.hover}>
-          <p className={classes.secondBiggerSquare}>
-            Shanghai
-          </p>
-          <img src={Shanghai} alt="" />
+        <a
+          href="img/imac.jpg"
+          id="hover"
+          className={classes.hover}
+          style={{ display: 'block' }}
+        >
+          <div className={classes.img2}>
+            <p className={classes.img3Text}>Shanghai</p>
+          </div>
         </a>
-        <a href="img/pc.jpg" id="hover" className={classes.hover}>
-          <p
-            style={{
-              fontFamily: 'Roboto',
-              marginTop: '235px',
-              marginLeft: '140px',
-              fontSize: '30px',
-              color: 'white',
-              //transform: 'translate(450%, 520%)',
-              position: 'absolute'
-            }}
-          >
-            Nueva York
-          </p>
-          <img src={NewYork} alt="" />
+        <a
+          href="img/pc.jpg"
+          id="hover"
+          className={classes.hover}
+          style={{ display: 'block' }}
+        >
+          <div className={classes.img3}>
+            <p className={classes.img3Text}>Nueva York</p>
+          </div>
         </a>
         <a href="img/applez.jpg" id="hover" className={classes.hover}>
-          <p className={classes.lowerCards}>
-            Vietnam
-          </p>
-          <img src={LosAngeles} alt="" />
+          <div className={classes.img4}>
+            <p className={classes.img3Text}>Los Angeles</p>
+          </div>
         </a>
         <a href="img/art-working.jpg" id="hover" className={classes.hover}>
-        <p className={classes.lowerCards}>
-            Londres
-          </p>
-          <img src={London} alt="" />
+          <div className={classes.img5}>
+            <p className={classes.img3Text}>Londres</p>
+          </div>
         </a>
         <a href="img/coffe-computer.jpg" id="hover" className={classes.hover}>
-<p className={classes.lowerCards} >
-            Cancun
-          </p>
-          <img src={Cancun} />
+          <div className={classes.img6}>
+            <p className={classes.img3Text}>Cancun</p>
+          </div>
         </a>
       </div>
     </section>

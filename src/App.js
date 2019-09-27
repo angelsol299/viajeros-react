@@ -5,6 +5,8 @@ import Footer from './container/Footer';
 import UpperContainer from './container/UpperContainer';
 import Cards from './container/Cards';
 import Articles from './container/Articles';
+import Routes from './container/Rooutes';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
 import { withStyles } from '@material-ui/core/styles';
 

@@ -35,7 +35,6 @@ const Navbar = () => {
             style={{
               marginLeft: '-200px',
               fontFamily: 'Roboto',
-
               color: '#0089a8'
             }}
           >
