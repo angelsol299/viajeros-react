@@ -23,7 +23,10 @@ const styles = theme => ({
     height: '700px',
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
-    background: `url(${Bali}) no-repeat`
+    background: `url(${Bali}) no-repeat`,
+    [theme.breakpoints.down('sm')]: {
+      height: '100%'
+    }
   },
   img2: {
     alignItems: 'center',
@@ -41,9 +44,8 @@ const styles = theme => ({
     alignContent: 'center',
     width: 'auto',
     height: '100%',
-    backgroundRepeat: 'no-repeat',
-    backgroundSize: 'cover',
-    background: `url(${NewYork}) no-repeat`
+    background: `url(${NewYork}) no-repeat`,
+    position: 'relative'
   },
   img4: {
     display: 'grid',
@@ -78,7 +80,13 @@ const styles = theme => ({
   img3Text: {
     fontSize: '40px',
     fontFamily: 'Roboto',
-    color: 'white'
+    color: 'white',
+    [theme.breakpoints.down('md')]: {
+      fontSize: '30px'
+    },
+    [theme.breakpoints.down('sm')]: {
+      fontSize: '35px'
+    }
   }
 });
 
