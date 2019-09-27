@@ -208,6 +208,12 @@ a:hover {
   height: 800px;
 }
 
+@media (max-width: 863px) {
+  .section-b {
+    height: 650px;
+  }
+}
+
 .section-b-inner {
   color: #ffffff;
   height: 100%;
@@ -231,6 +237,17 @@ a:hover {
   background-color: rgba(0, 0, 0, 0.4);
   padding: 10px;
   font-family: Roboto;
+}
+
+@media (max-width: 600px) {
+  .section-b-inner h2 {
+    margin-top: -50px;
+  }
+}
+@media (max-width: 340px) {
+  .section-b-inner h2 {
+    margin-top: -130px;
+  }
 }
 
 @media (max-width: 900px) {
