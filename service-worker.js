@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/viajeros-react/precache-manifest.f8ad585c52facbdb8dfb482cea7379f3.js"
+  "/viajeros-react/precache-manifest.9ad8a9cfa866373463ff9d91e04fdf98.js"
 );
 
 self.addEventListener('message', (event) => {
