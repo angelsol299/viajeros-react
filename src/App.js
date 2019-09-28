@@ -7,6 +7,7 @@ import Cards from './container/Cards';
 import Articles from './container/Articles';
 import Routes from './container/Rooutes';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import Videos from './container/Videos';
 
 import { withStyles } from '@material-ui/core/styles';
 
@@ -40,6 +41,9 @@ const App = props => {
       </div>
       <div className={classes.h2Title}>
         <h2>Videos</h2>
+      </div>
+      <div>
+        <Videos />
       </div>
       <br />
       <br />
