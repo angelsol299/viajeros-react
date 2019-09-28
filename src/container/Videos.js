@@ -7,8 +7,8 @@ const styles = theme => ({
   videoFrame: {
     borderRadius: '10px !important',
     border: '5px solid #1F96AE',
-    width: '800px',
-    height: '400px',
+    width: '900px',
+    height: '450px',
     [theme.breakpoints.down('sm')]: {
       width: '600px',
       height: '300px'
