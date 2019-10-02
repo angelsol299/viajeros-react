@@ -24,11 +24,20 @@ const styles = theme => ({
     gridTemplateColumns: '700px 700px',
     gridGap: '100px',
     justifyContent: 'center',
-    alignContent: 'center'
+    alignContent: 'center',
+    [theme.breakpoints.down('lg')]: {
+      gridTemplateColumns: '500px 500px'
+    },
+    [theme.breakpoints.down('sm')]: {
+      gridTemplateColumns: '600px'
+    }
   },
   divGridChild: {
     display: 'grid',
-    gridTemplateColumns: '1fr 1fr'
+    gridTemplateColumns: '1fr 1fr',
+    [theme.breakpoints.down('xs')]: {
+      gridTemplateRows: '1fr'
+    }
   },
   img1: {
     display: 'grid',
@@ -115,6 +124,7 @@ const ArticlesMain = props => {
   return (
     <div>
       <NavBar />
+      <br />
       <br />
       <br />
       <div className={classes.divGridContainer}>

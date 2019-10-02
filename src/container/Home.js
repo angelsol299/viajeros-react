@@ -25,7 +25,7 @@ const Home = props => {
     <div className="App">
       <div>
         <Navbar />
-        <br />
+        <br className="hiddenBr" />
         <UpperContainer />
         <div className={classes.h2Title}>
           <h2>Guías de viajes</h2>
