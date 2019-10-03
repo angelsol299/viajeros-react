@@ -21,6 +21,15 @@ const styles = theme => ({
     [theme.breakpoints.up('md')]: {
       display: 'none'
     }
+  },
+  cards: {
+    border: '1px solid lightGrey',
+    borderRadius: '10px',
+    [theme.breakpoints.down('xs')]: {
+      borderRadius: '0px',
+      border: '0px',
+      boxShadow: '0px'
+    }
   }
 });
 
@@ -28,7 +37,7 @@ const Filipinas = props => {
   const { classes } = props;
   return (
     <Fragment>
-      <Card style={{ border: '1px solid lightGrey', borderRadius: '10px' }}>
+      <Card className={classes.cards}>
         <h2 className={classes.h2Title}>Filipinas</h2>
         <div className={classes.gridContainer}>
           <div>
