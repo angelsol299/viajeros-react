@@ -11,11 +11,11 @@ const Navbar = () => {
           <span style={{ background: '#046156' }}></span>
           <span style={{ background: '#046156' }}></span>
           <ul id="menu">
-            <a href="#">
+            <Link to="/">
               <li>Home</li>
-            </a>
-            <Link to="/about">
-              <li>About</li>
+            </Link>
+            <Link to="/articles">
+              <li>Articulos</li>
             </Link>
             <a href="#">
               <li>Info</li>

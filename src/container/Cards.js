@@ -16,6 +16,9 @@ const styles = theme => ({
     margin: '10px 30px',
     [theme.breakpoints.down('sm')]: {
       display: 'block'
+    },
+    [theme.breakpoints.down('xs')]: {
+      margin: '0px'
     }
   },
   spaceMobile: {

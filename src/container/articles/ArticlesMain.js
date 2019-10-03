@@ -21,22 +21,23 @@ const styles = theme => ({
     textAlign: 'center',
     alignItems: 'center',
     display: 'grid',
-    gridTemplateColumns: '700px 700px',
-    gridGap: '100px',
+    gridTemplateColumns: '300px 300px 300px 300px',
+    gridGap: '50px',
     justifyContent: 'center',
     alignContent: 'center',
+    marginTop: '100px',
     [theme.breakpoints.down('lg')]: {
-      gridTemplateColumns: '500px 500px'
+      gridTemplateColumns: '250px 250px 250px 250px'
     },
     [theme.breakpoints.down('sm')]: {
-      gridTemplateColumns: '600px'
+      gridTemplateColumns: '300px'
     }
   },
   divGridChild: {
     display: 'grid',
     gridTemplateColumns: '1fr 1fr',
     [theme.breakpoints.down('xs')]: {
-      gridTemplateRows: '1fr'
+      //display: 'block'
     }
   },
   img1: {
@@ -48,8 +49,9 @@ const styles = theme => ({
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
     background: `url(${Bali}) no-repeat`,
-    [theme.breakpoints.down('sm')]: {
-      height: '100%'
+    [theme.breakpoints.down('xs')]: {
+      height: '200px',
+      width: '300px'
     }
   },
   img2: {
@@ -61,8 +63,9 @@ const styles = theme => ({
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
     background: `url(${Shanghai}) no-repeat`,
-    [theme.breakpoints.down('sm')]: {
-      height: '100%'
+    [theme.breakpoints.down('xs')]: {
+      height: '200px',
+      width: '300px'
     }
   },
   img3: {
@@ -74,8 +77,9 @@ const styles = theme => ({
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
     background: `url(${LosAngeles}) no-repeat`,
-    [theme.breakpoints.down('sm')]: {
-      height: '100%'
+    [theme.breakpoints.down('xs')]: {
+      height: '200px',
+      width: '300px'
     }
   },
   img4: {
@@ -87,8 +91,9 @@ const styles = theme => ({
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
     background: `url(${NewYork}) no-repeat`,
-    [theme.breakpoints.down('sm')]: {
-      height: '100%'
+    [theme.breakpoints.down('xs')]: {
+      height: '200px',
+      width: '300px'
     }
   },
   img5: {
@@ -100,8 +105,9 @@ const styles = theme => ({
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
     background: `url(${Cancun}) no-repeat`,
-    [theme.breakpoints.down('sm')]: {
-      height: '100%'
+    [theme.breakpoints.down('xs')]: {
+      height: '200px',
+      width: '300px'
     }
   },
   img6: {
@@ -113,8 +119,14 @@ const styles = theme => ({
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
     background: `url(${London}) no-repeat`,
-    [theme.breakpoints.down('sm')]: {
-      height: '100%'
+    [theme.breakpoints.down('xs')]: {
+      height: '200px',
+      width: '300px'
+    }
+  },
+  hiddenBr: {
+    [theme.breakpoints.up('sm')]: {
+      display: 'none'
     }
   }
 });
@@ -124,52 +136,28 @@ const ArticlesMain = props => {
   return (
     <div>
       <NavBar />
-      <br />
-      <br />
-      <br />
       <div className={classes.divGridContainer}>
-        <div className={classes.divGridChild}>
-          <div className={classes.img1}></div>
-          <p>
-            {' '}
-            <h2>24 horas en Shanghai</h2>
-            Con sus luces, sus edificios, sus comidas y su gente
-          </p>
-        </div>
-
-        <div className={classes.divGridChild}>
-          <div className={classes.img2}></div>
-          <p>ksjhdjkh</p>
-        </div>
+        <div className={classes.img1}></div>
+        <p>
+          {' '}
+          <h2>24 horas en Shanghai</h2>
+          Con sus luces, sus edificios, sus comidas y su gente
+        </p>
+        <div className={classes.img2}></div>
+        <p>
+          {' '}
+          <h2>24 horas en Shanghai</h2>
+          Con sus luces, sus edificios, sus comidas y su gente
+        </p>
+        <div className={classes.img3}></div>
+        <p>24 horas en Shanghai</p>
+        <div className={classes.img4}></div>
+        <p>ksjhdjkh</p>
+        <div className={classes.img5}></div>
+        <p>24 horas en Shanghai</p>
+        <div className={classes.img6}></div>
+        <p>ksjhdjkh</p>
       </div>
-      <br />
-      <br />
-      <div className={classes.divGridContainer}>
-        <div className={classes.divGridChild}>
-          <div className={classes.img3}></div>
-          <p>24 horas en Shanghai</p>
-        </div>
-
-        <div className={classes.divGridChild}>
-          <div className={classes.img4}></div>
-          <p>ksjhdjkh</p>
-        </div>
-      </div>
-      <br />
-      <br />
-      <div className={classes.divGridContainer}>
-        <div className={classes.divGridChild}>
-          <div className={classes.img5}></div>
-          <p>24 horas en Shanghai</p>
-        </div>
-
-        <div className={classes.divGridChild}>
-          <div className={classes.img6}></div>
-          <p>ksjhdjkh</p>
-        </div>
-      </div>
-      <br />
-      <br />
       <br />
       <br />
       <Footer />
