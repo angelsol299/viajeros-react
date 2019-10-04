@@ -18,13 +18,13 @@ const Navbar = () => {
               <li>Articulos</li>
             </Link>
             <a href="#">
-              <li>Info</li>
+              <li>Viajes</li>
             </a>
             <a href="#">
-              <li>Contact</li>
+              <li>Videos</li>
             </a>
             <a href="https://erikterwan.com/" target="_blank">
-              <li>Show me more</li>
+              <li>Nosotros</li>
             </a>
           </ul>
         </div>
@@ -48,13 +48,13 @@ const Navbar = () => {
               <Link to="/articles">Articulos</Link>
             </li>
             <li>
+              <Link>Viajes</Link>
+            </li>
+            <li>
               <Link>Videos</Link>
             </li>
             <li>
-              <Link>Destinos</Link>
-            </li>
-            <li>
-              <Link>Guías de viaje</Link>
+              <Link>Nosotros</Link>
             </li>
           </ul>
         </div>
