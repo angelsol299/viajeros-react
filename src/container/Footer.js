@@ -18,16 +18,16 @@ const Footer = () => {
           <ul>
             <h3>Company Info</h3>
             <li>
-              <a href="#">All products</a>
+              <a href="#">Productos</a>
             </li>
             <li>
-              <a href="#">About Us</a>
+              <a href="#">Nosotros</a>
             </li>
             <li>
-              <a href="#">Privacy Policy</a>
+              <a href="#">Politicas de privacidad</a>
             </li>
             <li>
-              <a href="#">Terms of Service</a>
+              <a href="#">Terminos de servicios</a>
             </li>
           </ul>
         </div>
@@ -42,16 +42,16 @@ const Footer = () => {
               <a href="#">Lounge Bruselas review</a>
             </li>
             <li>
-              <a href="#">Lorem ipsum dolor sit.</a>
+              <a href="#">24 horas en Berlin</a>
             </li>
             <li>
-              <a href="#">Lorem ipsum dolor sit.</a>
+              <a href="#">Vacaiones en Malta</a>
             </li>
           </ul>
         </div>
         <div>
           <h3>Subscribe</h3>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+          <p>Reíbe las últimas tendencias en viajes sucribiendote</p>
           <form name="email-form" method="POST" data-netlify="true">
             <div className="email-form">
               <span className="form-control-wrap">
