@@ -4,6 +4,8 @@ import { withStyles } from '@material-ui/core/styles';
 import Vietnam from './posts/Vietnam';
 import HongKong from './posts/HongKong';
 import Filipinas from './posts/Filipinas';
+import Navbar from './Navbar';
+import Footer from './Footer';
 
 const styles = theme => ({
   h2Title: {
